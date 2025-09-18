@@ -29,5 +29,5 @@ class BaseFuncionario {
         this.salario = salario;
     }
 
-lc
+
 }
