@@ -11,7 +11,6 @@ public class main {
         meioDeTransporte.add(new Bike("BMX", 10));
         meioDeTransporte.add(new Trem("Thomas e Seus Amigos", 50));
 
-
         meioDeTransporte.stream().forEach(mt -> mt.acelerar());
         meioDeTransporte.stream().forEach(mt -> mt.acelerar());
         meioDeTransporte.stream().forEach(mt -> mt.acelerar());
