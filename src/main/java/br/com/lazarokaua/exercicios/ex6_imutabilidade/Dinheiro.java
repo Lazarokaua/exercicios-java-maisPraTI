@@ -1,7 +1,6 @@
 package br.com.lazarokaua.exercicios.ex6_imutabilidade;
 
 import java.math.BigDecimal;
-import java.util.Objects;
 
 public final class Dinheiro {
     private final BigDecimal valor;
@@ -17,7 +16,7 @@ public final class Dinheiro {
         this.valor = valor;
         this.moeda = moeda;
     }
-
+    
     public BigDecimal getValor() {
         return this.valor;
     }
